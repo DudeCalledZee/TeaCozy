@@ -1,0 +1,69 @@
+body {
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  font-family: Helvetica;
+  opacity: 0.9;
+  align-content: center;
+
+}
+
+li {
+  float: right;
+  list-style: none;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  text-decoration: underline;
+  color: seashell;
+
+}
+ nav {
+   padding-bottom: 5px;
+     border-bottom: solid 2px gray;
+ }
+
+nav ul{
+  padding-bottom: 14px;
+
+}
+
+.logo{
+  float: left;
+  height: auto;
+  width: 120px;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.banner {
+  height: 700px;
+  width: 100%;
+}
+
+.mission{
+  position: absolute;
+  top: 330px;
+  background-color: black;
+  text-align: center;
+  margin: auto;
+  width: 90%;
+
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.tea {
+  height: 200px;
+  width: 300px;
+}
